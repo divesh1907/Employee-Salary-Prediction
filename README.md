@@ -51,7 +51,7 @@ The codebase is written in python (kernel: `conda-base-py`) and is intended for 
 ## Dataset & Inputs
 
 The notebook references paths like:
-- `/Users/ponnadadivesh/Downloads/IBM/project/adult 3.csv`
+- `adult 3.csv`
 - `predicted_classes.csv`
 
 You can replace these with your own files. If streaming from a device, ensure your serial port or network endpoint is correct and accessible to your host machine.
@@ -89,7 +89,7 @@ pip install joblib matplotlib numpy os pandas pyngrok sklearn.compose sklearn.en
 
 1. Open the notebook:
    ```bash
-   jupyter notebook "ESP project.ipynb"
+   jupyter notebook "Project Code.ipynb"
    ```
 2. Run cells in order from top to bottom.
 3. (Optional) If a Streamlit UI is included, look for an `app.py` cell or instructions in the notebook and run:
